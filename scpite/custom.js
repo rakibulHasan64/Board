@@ -4,6 +4,8 @@ document.getElementById("theme").addEventListener("click", function () {
 });
 
 
+
+
 document.getElementById("something").addEventListener("click", function () {
    window.location.href ="/main.html";  
 });
@@ -15,8 +17,6 @@ const currentDate = new Date();
 const options = { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' };
 const formattedDate = currentDate.toLocaleDateString('en-US', options);
 timeElement.innerText = formattedDate;
-
-
 
 const datas = document.querySelectorAll(".data-set");
 const itemDataLength = document.getElementById("item-data-length");
